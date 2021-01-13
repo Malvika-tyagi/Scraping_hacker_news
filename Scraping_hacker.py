@@ -61,4 +61,4 @@ if __name__ == '__main__':
     db = client.scrapper_db
     collection = db.scraping_hacker
     result = collection.insert_one(dict_to_add)
-    print("Data Appended to a List")
+    print("Data Appended to DB")
